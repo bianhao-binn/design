@@ -5,11 +5,15 @@
     <title></title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/design.css">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-ui-1.11.0.min.js"></script>
+   
 </head>
 <body>
     <div id="main">
-        <!-- 左侧菜单栏 -->
+        <!-- 左侧素材栏 -->
         <div id="leftMaterial">
+            <!-- 素材菜单 -->
             <div id="materialMenu">
                 <ul id="materialMenuList">
                     <li class="materialMenuBtn"></li>
@@ -19,21 +23,44 @@
                     <li class="materialMenuBtn"></li>
                 </ul>
             </div>
+            <!-- 素材 -->
             <div id="materialWrap">
-                <div id="" class="materialWrapSon"></div>
-                <div id="" class="materialWrapSon"></div>
-                <div id="" class="materialWrapSon"></div>
-                <div id="" class="materialWrapSon"></div>
-                <div id="" class="materialWrapSon"></div>
+                <div id="chooseMaterial" class="materialWrapSon">
+                    <ul class="chooseMaterialWrap materialWrapContent">
+                        <li class="chooseMaterialLi"></li>
+                        <li class="chooseMaterialLi"></li>
+                        <li class="chooseMaterialLi"></li>
+                        <li class="chooseMaterialLi"></li>
+                        <li class="chooseMaterialLi"></li>
+                        <li class="chooseMaterialLi"></li>
+                        <li class="chooseMaterialLi"></li>
+                        <li class="chooseMaterialLi"></li>
+                        <li class="chooseMaterialLi"></li>
+                        <li class="chooseMaterialLi"></li>
+                    </ul>
+                </div>
+                <div id="" class="materialWrapSon">2</div>
+                <div id="" class="materialWrapSon">3</div>
+                <div id="" class="materialWrapSon">4</div>
+                <div id="" class="materialWrapSon">5</div>
             </div>
         </div>
         <!-- 右侧画布 -->
         <div id="rightCanva">
-            <div id="popPanel"></div>
+            <div id="inner">
+                <div class="canvaDocument">
+                    <div class="elements"></div>
+                    <menu class="elememtsMenu">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </menu>
+                </div>
+            </div>
         </div>
     </div>
 </body>
-<script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/jquery-ui-1.11.0.min.js"></script>
 <script src="js/design.js"></script>
 </html>
